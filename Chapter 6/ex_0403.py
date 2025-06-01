@@ -8,7 +8,6 @@ from sklearn.cluster import KMeans
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.cluster import DBSCAN
 from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
-
 import matplotlib
 matplotlib.use('TkAgg')
 
