@@ -10,6 +10,7 @@ from nltk.corpus import stopwords
 warnings.filterwarnings('ignore')
 # nltk.download()
 
+
 # Connect to the source.
 source = urllib.request.urlopen('https://en.wikipedia.org/wiki/Machine_learning').read()
 
@@ -65,3 +66,4 @@ a_model.most_similar(['king','kings'])
 
 # Operation: queen(queens) - woman(women) + man(men) = ???
 a_model.most_similar(positive=['queen','queens','man','men'], negative= ['woman','women'])
+
