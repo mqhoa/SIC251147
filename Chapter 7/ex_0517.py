@@ -10,7 +10,6 @@ from nltk.corpus import stopwords
 warnings.filterwarnings('ignore')
 # nltk.download()
 
-
 # Connect to the source.
 source = urllib.request.urlopen('https://en.wikipedia.org/wiki/Machine_learning').read()
 
