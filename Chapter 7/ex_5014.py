@@ -13,7 +13,6 @@ warnings.filterwarnings('ignore')                  # Turn the warnings off.
 import matplotlib
 matplotlib.use('TkAgg')
 
-
 n_words = 1000                                        # Size of the vocabulary.
 (X_train, y_train), (X_test, y_test) = load_data(num_words = n_words, test_split = 0.3)
 n_train_size = X_train.shape[0]
